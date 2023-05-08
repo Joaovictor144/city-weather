@@ -137,7 +137,7 @@ export function ViewByAdress() {
           </select>
         </S.Label>
         <br />
-        <button onClick={handleSelecionarClick} disabled={!citieSelect}>Selecionar</button>
+        <button onClick={handleSelecionarClick} disabled={!citieSelect}>Confirmar</button>
         {citieSelect && <button className="clear" onClick={handleClear}>limpar </button>}
       </div>
       
