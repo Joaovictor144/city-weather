@@ -1,0 +1,28 @@
+{
+  "name": "city-weather-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "tsx --no-cache infra/server.ts",
+    "watch": "tsx watch --no-cache infra/server.ts "
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.13",
+    "@types/express": "^4.17.17",
+    "@types/node": "^20.1.0",
+    "@typescript-eslint/eslint-plugin": "^5.59.2",
+    "@typescript-eslint/parser": "^5.59.2",
+    "eslint": "^8.40.0",
+    "tsx": "^3.12.7",
+    "typescript": "*4.9.5"
+  },
+  "dependencies": {
+    "axios": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "reflect-metadata": "^0.1.13",
+    "tsyringe": "^4.7.0"
+  }
+}
